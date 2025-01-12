@@ -1,4 +1,6 @@
 import os
+import time
+
 
 def git_push():
     os.system('git add .')

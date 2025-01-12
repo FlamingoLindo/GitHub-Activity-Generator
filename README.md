@@ -1,1 +1,1 @@
-# GitHub-Activity-Generatora
+# GitHub-Activity-Generator

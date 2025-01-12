@@ -7,7 +7,7 @@ from write_file import write_file
 def activity_generator():
     # Generate random values for each execution
     rand_commit_amount = random.randint(1, 100)
-    rand_time_delay = random.randint(1, 60)
+    rand_time_delay = random.randint(1, 28800)
     print(f"Executing {rand_commit_amount} commits with a delay of {rand_time_delay} seconds.")
     
     for _ in range(rand_commit_amount):
@@ -16,7 +16,7 @@ def activity_generator():
         time.sleep(rand_time_delay)
 
 # Schedule the task at midnight
-schedule.every().day.at("17:26").do(activity_generator)
+schedule.every().day.at("17:32").do(activity_generator)
 
 # Run the schedule loop
 print("Scheduler started. Waiting for tasks...")

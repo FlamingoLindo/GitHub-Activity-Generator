@@ -15,10 +15,8 @@ def activity_generator():
         print(f"Commit {i + 1}/{rand_commit_amount} done. Next commit in {rand_time_delay} minute(s).\n")
         time.sleep(rand_time_delay * 60)
 
-# Schedule the task
-schedule.every().day.at("17:44").do(activity_generator)
+schedule.every().day.at("09:00").do(activity_generator)
 
-# Run the scheduler
 print("Scheduler started. Waiting for tasks...\n")
 while True:
     schedule.run_pending()

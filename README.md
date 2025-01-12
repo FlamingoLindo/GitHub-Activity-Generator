@@ -1,6 +1,7 @@
 # GitHub-Activity-Generator
 
-![image]()
+![image](/image.png)
+*Essa screenshoot foi tirada no dia em que eu decide fazer esse projeto.
 
 Este projeto foi criado como uma forma divertida de explorar a ideia de que a quantidade de contribuições no GitHub pode influenciar o interesse dos recrutadores durante o processo de seleção. A motivação principal foi testar a teoria de que uma alta atividade no GitHub pode ser um fator decisivo para contratação. Independentemente da validade dessa ideia, o projeto foi uma ótima oportunidade para praticar automação e programação.
 
